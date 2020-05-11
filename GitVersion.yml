@@ -1,6 +1,9 @@
 assembly-versioning-scheme: MajorMinorPatch
+mode: Mainline
 branches:
   master:
+    is-mainline: true
+    regex: (master|mainline)
     tag: beta
 ignore:
   sha: 
